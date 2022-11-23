@@ -1,0 +1,23 @@
+{
+    "lwc": { "modules": [{ "dir": "$rootDir/src/modules" }] },
+    "routes": [
+        {
+            "id": "example",
+            "path": "/",
+            "rootComponent": "example/app",
+            "bootstrap": {
+                "syntheticShadow": true
+            }
+        }
+    ],
+    "assets": [
+        {
+            "alias": "tinymce",
+            "dir": "$rootDir/node_modules/tinymce",
+            "urlPath": "/tinymce"
+        }
+    ],
+    "locker": {
+        "enabled": false
+    }
+}
