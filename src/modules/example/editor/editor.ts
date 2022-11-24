@@ -13,6 +13,9 @@ export default class Editor extends LightningElement {
       console.log('Init editor');
       tinymce.init({
         target: targetEl,
+        plugins: [ 'importcss' ],
+        content_css: '/assets/content.css',
+        importcss_append: true,
         base_url: '/tinymce'
       });
     }

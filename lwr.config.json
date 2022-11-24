@@ -15,6 +15,11 @@
             "alias": "tinymce",
             "dir": "$rootDir/node_modules/tinymce",
             "urlPath": "/tinymce"
+        },
+        {
+            "alias": "assets",
+            "dir": "$rootDir/src/assets",
+            "urlPath": "/assets"
         }
     ],
     "locker": {
