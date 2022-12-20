@@ -12,6 +12,7 @@
     "start:prod-compat": "lwr serve --mode prod-compat"
   },
   "dependencies": {
+    "@tinymce-dev/tinymce": "^6.4.0-alpha.20221219183355832.sha5e4e324deb",
     "lwc": "^2.32.0",
     "lwr": "0.8.6",
     "tinymce": "^6.2.0"
